@@ -8,35 +8,41 @@ A simple command runner in nodejs. This is a port of [exec-simple for ruby](http
 
 A simple execution:
 
-    var ExecSimple = require('exec-simple');
-    var es = new ExecSimple('echo test');
-    es.run().then(function (code) {
-        console.log('done');
-    });
+```javascript
+var ExecSimple = require('exec-simple');
+var es = new ExecSimple('echo test');
+es.run().then(function (code) {
+    console.log('done');
+});
+```
 
 Handle timeouts:
 
-    var es = new ExecSimple('echo "Sleep... wait for it"; sleep 100; echo "DARY"');
-    es.run().timeout(50).then(function (code) {
-        console.log('done');
-    }).catch (function (code) {
-        console.log('process took too long');
-    });
+```javascript
+var es = new ExecSimple('echo "Sleep... wait for it"; sleep 100; echo "DARY"');
+es.run().timeout(50).then(function (code) {
+    console.log('done');
+}).catch (function (code) {
+    console.log('process took too long');
+});
+```
 
 Recieve `stdout` and `stderr` events
 
-    var es = new ExecSimple('echo test');
-    es.on('control', function (data) {
-        console.log(data);
-    });
-    es.on('stderr', function (data) {
-        console.log(data);
-    });
-    es.on('stdout', function (data) {
-        console.log(data);
-    });
+```javascript
+var es = new ExecSimple('echo test');
+es.on('control', function (data) {
+    console.log(data);
+});
+es.on('stderr', function (data) {
+    console.log(data);
+});
+es.on('stdout', function (data) {
+    console.log(data);
+});
 
-    es.run()
+es.run()
+```
 
 
 ## Installation
