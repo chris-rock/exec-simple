@@ -1,0 +1,28 @@
+{
+    "name": "exec-simple",
+    "description": "runs a process as a promise",
+    "version": "0.1.0",
+    "homepage": "http://lollyrock.com",
+    "keywords": [],
+    "main": "exec-simple",
+    "author": {
+        "name": "Christoph Hartmann",
+        "email": "chris@lollyrock.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "bluebird" : "1.2.2"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.3.x"
+    },
+    "devDependencies": {
+        "should": "~3.3.0",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-mocha-test": "~0.10.2"
+    }
+}
