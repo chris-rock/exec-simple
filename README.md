@@ -49,6 +49,10 @@ Recieve `stdout` and `stderr` events
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+## Author
+
+- Christoph Hartmann <chris@lollyrock.com>
+
 ## License
 
 MIT
