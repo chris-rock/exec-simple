@@ -3,7 +3,7 @@
     "description": "runs a process as a promise",
     "version": "0.1.0",
     "homepage": "http://lollyrock.com",
-    "keywords": [],
+    "keywords": ["execute", "simple", "process"],
     "main": "exec-simple",
     "author": {
         "name": "Christoph Hartmann",
@@ -14,7 +14,8 @@
         "url": ""
     },
     "dependencies": {
-        "bluebird" : "1.2.2"
+        "bluebird" : "1.2.2",
+        "debug": "~0.8.0"
     },
     "engines": {
         "node": "0.10.x",
