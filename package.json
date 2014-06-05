@@ -15,7 +15,7 @@
     },
     "dependencies": {
         "bluebird" : "1.2.2",
-        "debug": "~0.8.0"
+        "debug": "~0.7.0"
     },
     "engines": {
         "node": "0.10.x",
