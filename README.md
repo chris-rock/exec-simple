@@ -1,6 +1,6 @@
 # ExecSimple
 
-[![build status](https://secure.travis-ci.org/spaceportci/exec-simple.png)](http://travis-ci.org/spaceportci/exec-simple)
+[![build status](https://secure.travis-ci.org/chris-rock/exec-simple.png)](http://travis-ci.org/chris-rock/exec-simple)
 
 A simple command runner in nodejs. This is a port of [exec-simple for ruby](https://github.com/arlimus/exec-simple) for nodejs.
 
